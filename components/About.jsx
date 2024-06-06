@@ -155,7 +155,7 @@ const About = () => {
                 </TabsTrigger>
                 <TabsTrigger
                   className="w-[162px] xl:w-auto"
-                  value="qualification"
+                  value="qualifications"
                 >
                   Qualifications
                 </TabsTrigger>
@@ -190,10 +190,61 @@ const About = () => {
                         );
                       })}
                     </div>
+                    {/* {languages} */}
+                    <div className="flex flex-col gap-y-2">
+                      <div className="text-primary">Language Skill</div>
+                      <div className="border-b border-border"></div>
+                      <div>English, Rutooro </div>
+                    </div>
                   </div>
                 </TabsContent>
-                <TabsContent value="qualification">
-                  qualification info
+                {/* {qualification} */}
+                <TabsContent value="qualifications">
+                  <div>
+                    <h3 className="h3 mb-8 text-center xl:text-left">
+                      My Awesome Journey
+                    </h3>
+                    {/* {experience & education wrapper} */}
+                    <div>
+                      {/* {experience} */}
+                      <div>
+                        <div className="flex gap-x-4 items-center text-[22px] text-primary">
+                          <Briefcase />
+                          <h4 className="capitalize font-medium">
+                            {getData(qualificationData, "experience").title}
+                          </h4>
+                        </div>
+                        {/* {List} */}
+                        <div className="flex flex-col gap-y-8">
+                          {getData(qualificationData, "experience").data.map(
+                            (item, index) => {
+                              const { organisation, role, years } = item;
+                              return (
+                                <div className="flex gap-x-8 group" key={index}>
+                                  <div className="h-[84px] w-[1px] bg-border relative ml-2">
+                                    <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
+                                  </div>
+                                  <div>
+                                    <div className="font-semibold text-xl leading-none mb-2">
+                                      {organisation}
+                                    </div>
+                                    <div className="text-lg leading-none text-muted-foreground mb-4">
+                                      {role}
+                                    </div>
+                                    <div className="text-base font-medium">
+                                      {years}
+                                    </div>
+                                  </div>
+                                </div>
+                              );
+                            }
+                          )}
+                        </div>
+                      </div>
+                      {/* {education} */}
+                      <div>education</div>
+                    </div>
+                  </div>
                 </TabsContent>
                 <TabsContent value="skills">skills info</TabsContent>
               </div>
