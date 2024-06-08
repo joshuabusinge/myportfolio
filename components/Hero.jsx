@@ -22,9 +22,9 @@ const Hero = () => {
           {/* {text} */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Web Developer
+              Computer Scientist
             </div>
-            <h1 className="h1 mb-4">Hello, My name is Bujo</h1>
+            <h1 className="h1 mb-4">Hello, My name is Josh</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Here plese find a brief introduction about me and what i do, am
               computer scientist and business man with background in writing
