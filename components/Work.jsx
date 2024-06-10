@@ -55,6 +55,5 @@ const Work = () => {
       </div>
     </section>
   );
-  return <div>Work</div>;
 };
 export default Work;
