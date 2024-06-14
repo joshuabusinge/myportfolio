@@ -75,6 +75,7 @@ const Reviews = () => {
           slidesPerView={1}
           breakpoints={{
             640: { slidesPerView: 2 },
+            768: { slidesPerView: 3 },
             1400: { slidesPerView: 3 },
           }}
           spaceBetween={30}
@@ -99,7 +100,7 @@ const Reviews = () => {
                         priority
                       />
                       {/* {name} */}
-                      <div>
+                      <div className="flex flex-col">
                         <CardTitle>{person.name}</CardTitle>
                         <p>{person.job}</p>
                       </div>
