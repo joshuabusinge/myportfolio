@@ -27,7 +27,7 @@ const projectData = [
   },
   {
     image: "/work/2.png",
-    category: "next js",
+    category: "data analytics",
     name: "Serenity Website",
     description: "This is the project am working in the commenting about",
     link: "/",
@@ -35,7 +35,7 @@ const projectData = [
   },
   {
     image: "/work/4.png",
-    category: "next js",
+    category: "data science",
     name: "Nova Website",
     description: "This is the project am working in the commenting about",
     link: "/",
