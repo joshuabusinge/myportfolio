@@ -87,22 +87,22 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "Python, SQL",
+        name: "Python, SQL, Power BI",
       },
       {
         name: "Data Analysis, Business Intelligence, Data Science",
       },
       {
-        name: "NextJs, Tailwind",
+        name: "NextJs, Tailwind CSS",
       },
       {
-        name: "Front-End Development",
+        name: "Front-End Dev, Figma",
       },
       {
         name: "Microsoft Azure, Azure Data Bricks",
       },
       {
-        name: "Data Engineer Associate",
+        name: "Visual Studio",
       },
     ],
   },
@@ -116,10 +116,19 @@ const skillData = [
         imgPath: "/about/figma.svg",
       },
       {
-        imgPath: "/about/notion.svg",
+        imgPath: "/about/azure.svg",
       },
       {
-        imgPath: "/about/wordpress.svg",
+        imgPath: "/about/python.svg",
+      },
+      {
+        imgPath: "/about/databricks.svg",
+      },
+      {
+        imgPath: "/about/next.svg",
+      },
+      {
+        imgPath: "/about/powerbi.svg",
       },
     ],
   },
@@ -172,9 +181,9 @@ const About = () => {
                       Unmatched Service Quality for Over 10 Years
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      I specialise in crafting intuitive websites with
-                      cutting-edge technology, delivering and engaging user
-                      experiences.
+                      I am an expert in Python programming language, sentimental
+                      analysis, text categorization, data analytics, and
+                      building machine learning models.
                     </p>
                     {/* {icons} */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
