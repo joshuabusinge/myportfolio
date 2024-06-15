@@ -12,25 +12,25 @@ import Link from "next/link";
 
 const icons = [
   {
-    path: "/",
+    path: "https://www.youtube.com/channel/UCQZbGMqHMNoW7UeFU-1Y4cw",
     name: <RiYoutubeFill />,
   },
   {
-    path: "/",
+    path: "https://www.linkedin.com/in/businge-joshua-muleesi-90536180/",
     name: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/joshuabusinge",
     name: <RiGithubFill />,
   },
-  {
-    path: "/",
-    name: <RiFacebookFill />,
-  },
-  {
-    path: "/",
-    name: <RiInstagramFill />,
-  },
+  // {
+  //   path: "/",
+  //   name: <RiFacebookFill />,
+  // },
+  // {
+  //   path: "/",
+  //   name: <RiInstagramFill />,
+  // },
 ];
 const Socials = ({ containerStyles, iconsStyles }) => {
   return (
