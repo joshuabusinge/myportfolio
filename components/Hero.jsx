@@ -22,13 +22,14 @@ const Hero = () => {
           {/* {text} */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Computer Scientist
+              Data Scientist
             </div>
             <h1 className="h1 mb-4">Hello, My name is Josh</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Here plese find a brief introduction about me and what i do, am
-              computer scientist and business man with background in writing
-              python and js code.
+              I am an experienced data scientist with a Master's degree in
+              Computer Science and over ten years of expertise in designing and
+              developing automated data processing pipelines, machine learning
+              algorithms, data analytics, and visualization.
             </p>
             {/* {buttons} */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -60,16 +61,16 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]"
               icon={<RiTodoFill />}
-              endCountNum={6}
-              endCountText="k"
+              endCountNum={20}
+              // endCountText="k"
               badgeText="Finished Projects"
             />
             {/* {badge 3} */}
             <Badge
               containerStyles="absolute top-[55%] -right-8"
               icon={<RiTeamFill />}
-              endCountNum={9}
-              endCountText="k"
+              endCountNum={15}
+              // endCountText="k"
               badgeText="Happy Clients"
             />
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
